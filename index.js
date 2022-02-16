@@ -140,7 +140,7 @@ const addIntern = () => {
 };
 
 function writeToFile() {
-    fs.writeFileSync("./dist/index.html", employeeHtml(employee))
+    fs.writeFileSync("./dist/index.html", employeeHtml(employees))
 };
 
 addEmployee();
